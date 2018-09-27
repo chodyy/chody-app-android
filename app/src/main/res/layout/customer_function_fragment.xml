@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/vintage100"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:tint="#FFFFFF"
+        android:background="@drawable/btn_round" />
+
+</RelativeLayout>
